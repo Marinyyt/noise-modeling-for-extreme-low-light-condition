@@ -32,7 +32,7 @@ For the testing, run "python simul_unclip_test.py" under the path "./intern/yyt/
 
 By default, the code takes the data in the "./intern/yyt/Learnin-to-see-in-the-dark/Sony/" folder. If you save the dataset in other folders, please change the "input_dir"(the directory recorded short-exposure images) and "gt_dir"(the directory recorded long-exposure images) at the beginning of the code.
 
-For the evaluation part, run "python evaluation.py" in the "result_dir" that has been set in the testing code before. This will compute the mean PSNR and SSIM score for the whole testing images and print it on the screen. 
+For the evaluation part, run "python evaluation.py" in the "result_dir" that has been set in the testing code before. This will compute the mean PSNR and SSIM score for the whole testing images and print the result on the screen. 
 
 
 ### Training new models
@@ -49,7 +49,7 @@ In summary, I provide some training codes that I think are more important:
 
 By default, the code takes the data in the "./dataset/Sony/" folder. If you save the dataset in other folders, please change the "input_dir" and "gt_dir" at the beginning of the code.
 
-
+PS: there are two file lists named "noise level test.txt" and "noise level train.txt" in the folder. They record the readout noise parameter and the shot noise parameter for the images within SID. In the list file, each row includes a long-exposed image name, the corresponding shot noise parameter, and the corresponding readout noise parameter.
 
 ### Analysis Code
 "sonytest.m" is the MATlAB code for processing a raw image in the path "filename" into a displayable sRGB image. "wbmask" and "apply_cmatrix" are the function code used in "sonytest.m".
