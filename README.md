@@ -10,13 +10,13 @@ In addition, it also provides some analysis codes for helping people exploring o
 ## Usage
 
 ### Prerequisites
-Required python (version 3.6) libraries: Tensorflow (>=1.12.0) + Rawpy + imageio(2.6.1).
+Required python (version 3.6) libraries: Tensorflow (>=1.12.0) + Rawpy + imageio(2.6.1), and MATLAB R2018a.
 
 Tested in Ubuntu 16.04/Windows 10 + Intel i9 CPU + Nvidia K80 with Cuda (>=10.1) and CuDNN (>=7.0). CPU mode should also work with minor changes but not tested.
 
 
 ### Required dataset
-The dataset used for training and testing is Seeing In the Dark dataset (SID). SID was captured using two cameras: Sony α7SII(in the folder path "./intern/yyt/Learnin-to-see-in-the-dark/Sony/") and Fujifilm X-T2(in the folder path"./intern/yyt/Fuji/"). More specifically, the Sony set, all the long-exposure images are recorded in "./intern/yyt/Learnin-to-see-in-the-dark/Sony/long/" and all the short-exposure images are revcorded in "./intern/yyt/Learnin-to-see-in-the-dark/Sony/short/". 
+The dataset used for training and testing is Seeing In the Dark dataset (SID). SID was captured using two cameras: Sony α7SII(in the folder path "./intern/yyt/Learnin-to-see-in-the-dark/Sony/") and Fujifilm X-T2(in the folder path"./intern/yyt/Fuji/"). More specifically, for the Sony set, all the long-exposure images are recorded in "./intern/yyt/Learnin-to-see-in-the-dark/Sony/long/" and all the short-exposure images are revcorded in "./intern/yyt/Learnin-to-see-in-the-dark/Sony/short/". 
 
 The file lists are provided(e.g., Sony_train_list.txt and Sony_test_list.txt). In the list file, each row includes a short-exposed image path, the corresponding long-exposed image path, camera ISO and F number. Note that multiple short-exposed images may correspond to the same long-exposed image.
 
