@@ -23,7 +23,7 @@ The file lists are provided(e.g., Sony_train_list.txt and Sony_test_list.txt). I
 The file name of the image contains the image information. For example, in "10019_00_0.033s.RAF", the first digit "1" means it is from the test set ("0" for training set and "2" for validation set); "0019" is the image ID; the following "00" is the number in the sequence/burst; "0.033s" is the exposure time 1/30 seconds.
 
 
-Another dataset is a Self-captured dark frame dataset for Sony A7R2. This dataset is mainly used for calibration based synthetic training process and for analyzing the real noise distribution. It is placed in the folder named "SID_black level_v3". In the dataset, it contains 90 dark frames that are captured with closed lens and with no illumination environment. The file name of the image contains the image information. For example, in "8000_0.033.RAF", the number before underscore "8000" means its ISO value and the number after underscore "0.033" represents the exposure time
+Another dataset is a Self-captured dark frame dataset for Sony A7R2. This dataset is mainly used for calibration based synthetic training process and for analyzing the real noise distribution. It is placed in the folder named "./Sony/SID_black level_v3". In the dataset, it contains 90 dark frames that are captured with closed lens and with no illumination environment. The file name of the image contains the image information. For example, in "8000_0.033.RAF", the number before underscore "8000" means its ISO value and the number after underscore "0.033" represents the exposure time
 
 
 ### Testing and Evaluation
