@@ -1,7 +1,7 @@
 # noise-modeling-for-extreme-low-light-condition
 
 ## Background
-This repository provides the code for training a denoised neural network with the synthetic data under extreme-low light environment and the corresponding testing code for evaluating the well-trained network on the realistic data.  The detailed illustration is described in the summary report:
+This repository provides the code for training a denoising neural network with the synthetic data under extreme-low light environment and the corresponding testing code for evaluating the well-trained denoising network on the realistic data.  The detailed explanation about the approach has been described in the summary report:
 
 《A Novel Noise Formation Model for Dark Scene》
 
